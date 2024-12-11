@@ -96,9 +96,6 @@ function displayDataInTable(data) {
         });
         table.appendChild(row);
     });
-
-;
-
     const apiResponseDiv = document.getElementById('apireponse');
     apiResponseDiv.innerHTML = ''; // 清空之前的內容
     apiResponseDiv.appendChild(table);
